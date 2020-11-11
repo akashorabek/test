@@ -1,0 +1,46 @@
+.social_networks {
+    padding-bottom: 40px;
+}
+.social_networks>h1 {
+    margin-bottom: 30px;
+}
+.social_net_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social_net_item {
+    width: calc(100% / 3 - 6%);
+    border: 2px solid #e6e6e6;
+    border-radius: 15px;
+    padding: 30px;
+}
+.item_title {
+    display: flex;
+    align-items: center;
+}
+.item_title i {
+    font-size: 28px;
+    color: #D89D3D;
+    margin-right: 20px;
+}
+.item_btn {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item_btn p{
+    width: 50%;
+}
+.item_btn a {
+    padding: 10px;
+    border: 2px solid #E3E3E3;
+    border-radius: 5px;
+    color: black;
+    transition: .2s;
+}
+.item_btn a:hover {
+    color: white;
+    background-color: #D89D3D;
+}

@@ -1,0 +1,17 @@
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.section_paddings {
+    padding: 40px 0;
+}
+.slick-track {
+    display: flex;
+}
+.slick-list {
+    overflow: hidden;
+}
+.main_title {
+    font-size: 24px;
+}

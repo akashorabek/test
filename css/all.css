@@ -1,0 +1,12 @@
+@import url(vendor/reset.css);
+@import url(vendor/same.css);
+@import url(components/header.css);
+@import url(components/products_imgs.css);
+@import url(components/gadgets.css);
+@import url(components/product_sliders.css);
+@import url(components/smartphones.css);
+@import url(components/brands.css);
+@import url(components/dark_img.css);
+@import url(components/text.css);
+@import url(components/social_networks.css);
+@import url(components/footer.css);

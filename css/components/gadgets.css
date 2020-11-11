@@ -1,0 +1,33 @@
+.gadgets_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.gadget_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 5 - 3%);
+    border-radius: 10px;
+    padding: 20px 0;
+    transition: .3s;
+    cursor: pointer;
+}
+.gadget_item:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.gadget_item:hover a {
+    color: #C2871E;
+}
+.gadget_item a {
+    font-size: 16px;
+    color: black;
+    transition: .3s;
+}
+.gadget_item img{
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}

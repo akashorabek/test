@@ -1,0 +1,65 @@
+.dark_img {
+    position: relative;
+    padding: 5% 0;
+}
+.dark_img::before {
+    content: "";
+    width: 100%;
+    background-image: url(../../imgs/backgrounds/dark_img.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    
+}
+.dark_img::after {
+    content: "";
+    width: 100%;
+    background-color: rgb(6, 0, 21, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.dark_img_wrap {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.dark_img_title {
+    width: 25%;
+}
+.dark_img_title p {
+    color: #C28922;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.dark_img_title h1 {
+    color: white;
+    font-size: 48px;
+}
+.dark_img_content {
+    width: 70%;
+}
+.dark_img_content_item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.dark_img_inner {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+.dark_img_inner p {
+    color: white;
+    font-size: 19px;
+    margin-left: 40px;
+}

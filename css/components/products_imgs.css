@@ -1,0 +1,114 @@
+.products_imgs {
+    display: flex;
+}
+.smartphone_box {
+    background-color: #201B21;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    border-radius: 10px;
+}
+.smartphone_img {
+    position: absolute;
+    top: -5%;
+    right: -20%;
+    transform: rotate(-90deg);
+}
+.products_imgs_title {
+    position: relative;
+    z-index: 2;
+}
+.products_imgs_title h1 {
+    font-size: 37px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+}
+.products_imgs_title a {
+    font-size: 16px;
+    font-size: 600;
+    color: #C28922;
+    transition: .2s;
+}
+.products_imgs_title a:hover {
+    color: white;
+}
+.smartphone_box_btns {
+    position: relative;
+    z-index: 1;
+}
+.top_btns {
+    display: flex;
+}
+.bottom_btns {
+    display: flex;
+}
+.smartphone_box_btns a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 21px;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 35px;
+    border: 2px solid #C2871E;
+    transition: .3s;
+    background-color: #201B21;
+}   
+.smartphone_box_btns a:hover {
+    background-color: #C2871E;
+}
+.other_gadgets_box {
+    height: 400px;
+    width: 40.5%;
+    margin-left: 15px;
+}
+
+.gadgets_box {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding: 3%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.wathes_img {
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    right: -45%;
+}
+.wathes_img img {
+    width: 420px;
+}
+.headphones_box {
+    background-color: black;
+    padding: 3%;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.headphones_img {
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: -35%;
+}
+.headphones_img img {
+    width: 500px;
+}
