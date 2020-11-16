@@ -1,0 +1,20 @@
+.adress {
+    display: flex;
+}
+.adress_item {
+    width: 50%;
+}
+.adress_item iframe {
+    height: 400px;
+}
+.adress_item h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.adress_item p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.adress_numbers {
+    margin-top: 50px;
+}

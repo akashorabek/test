@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST</title>
+    <title>Каталог товаров</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
@@ -134,250 +134,68 @@
         </div>
     </header>
 
-
-    <section class="products_imgs container section_paddings">
-        <div class="smartphone_box">
-            <div class="smartphone_img">
-                <img src="imgs/widgets/smartphones.png" alt="">
-            </div>
-            <div class="products_imgs_title">
-                <h1>Смартфоны</h1>
-                <a href="catalog_page.html">Смотреть каталог</a>
-            </div>
-            <div class="smartphone_box_btns">
-                <div class="top_btns">
-                    <a href="catalog_page.html">Samsung</a>
-                    <a href="catalog_page.html">Huawei</a>
-                </div>
-                <div class="bottom_btns">
-                    <a href="catalog_page.html">Apple</a>
-                    <a href="catalog_page.html">Xiaomi</a>
-                    <a href="catalog_page.html">Oppo</a>
-                </div>
+    <section class="catalog_filter container section_paddings">
+        <div class="catalog_way">
+            <p>Каталог товаров - Мобильные телефоны - Xiaomi</p>
+        </div>
+        <div class="catalog_title">
+            <h1>Смартфоны</h1>
+            <div class="catalog_brand">
+                <i class="fas fa-angle-down"></i>
+                <h1>Xiaomi</h1>
             </div>
         </div>
-        <div class="other_gadgets_box">
-            <div class="gadgets_box">
-                <div class="wathes_img">
-                    <img src="imgs/widgets/watches.png" alt="">
-                </div>
-                <div class="products_imgs_title">
-                    <h1>Гаджеты</h1>
-                    <a href="catalog_page.html">Смотреть каталог</a>
-                </div>
+        <div class="catalog_filter_wrap">
+            <div class="catalog_filter_item">
+                <form action="">
+                    <select class="selector" name="" id="">
+                        <option selected disabled value="">По бренду</option>
+                        <option value="">Xiaomi</option>
+                        <option value="">Apple</option>
+                        <option value="">Samsung</option>
+                    </select>                   
+                </form>
             </div>
-            <div class="headphones_box">
-                <div class="headphones_img">
-                    <img src="imgs/widgets/headphones.png" alt="">
-                </div>
-                <div class="products_imgs_title">
-                    <h1>Наушники</h1>
-                    <a href="catalog_page.html">Смотреть каталог</a>
-                </div>
+            <div class="catalog_filter_item">
+                <form action="">
+                    <select class="selector" name="" id="">
+                        <option selected disabled value="">Диагональ</option>
+                        <option value="">5.1</option>
+                        <option value="">5.8</option>
+                        <option value="">6</option>
+                    </select>                   
+                </form>
             </div>
-        </div>
-    </section>
-
-
-    <section class="gadgets container">
-        <div class="gadgets_wrap">
-            <div class="gadget_item">
-                <img src="imgs/widgets/gadget1.png" alt="">
-                <a href="catalog_page.html">Смартфоны</a>
+            <div class="catalog_filter_item">
+                <form action="">
+                    <select class="selector" name="" id="">
+                        <option selected disabled value="">Встроенная память</option>
+                        <option value="">16gb</option>
+                        <option value="">32gb</option>
+                        <option value="">64gb</option>
+                    </select>                   
+                </form>
             </div>
-            <div class="gadget_item">
-                <img src="imgs/widgets/gadget2.png" alt="">
-                <a href="catalog_page.html">Планшеты</a>
-            </div>
-            <div class="gadget_item">
-                <img src="imgs/widgets/gadget3.png" alt="">
-                <a href="catalog_page.html">Наушники</a>
-            </div>
-            <div class="gadget_item">
-                <img src="imgs/widgets/gadget4.png" alt="">
-                <a href="catalog_page.html">Аксессуары</a>
-            </div>
-            <div class="gadget_item">
-                <img src="imgs/widgets/gadget5.png" alt="">
-                <a href="catalog_page.html">Гаджеты</a>
+            <div class="catalog_filter_item">
+                <form action="">
+                    <select class="selector" name="" id="">
+                        <option selected disabled value="">Другие фильтры</option>
+                        <option value="">Xiaomi</option>
+                        <option value="">Apple</option>
+                        <option value="">Samsung</option>
+                    </select>                   
+                </form>
             </div>
         </div>
     </section>
 
-
-    <section class="product_sliders container section_paddings">
-        <div class="product_slider_item">
-            <div class="product_slider_block">
-                <div class="product_slider_img">
-                    <img src="imgs/widgets/main_phone.png" alt="">
-                </div>
-                <div class="product_slider_text">
-                    <div class="product_slider_card">
-                        <p>Новинки</p>
-                    </div>
-                    <div class="product_slider_title">
-                        <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb Black</a>
-                    </div>               
-                    <div class="product_slider_rates">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i id="fifth" class="fas fa-star"></i>
-                    </div>
-                    <div class="product_slider_cost">
-                        <p>123 450 тг.</p>
-                        <div class="cost_cart">
-                            <h2>123 450 тг.</h2>
-                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product_slider_block">
-                <div class="product_slider_img">
-                    <img src="imgs/widgets/main_phone.png" alt="">
-                </div>
-                <div class="product_slider_text">
-                    <div class="product_slider_card">
-                        <p>Новинки</p>
-                    </div>
-                    <div class="product_slider_title">
-                        <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb Black</a>
-                    </div>               
-                    <div class="product_slider_rates">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i id="fifth" class="fas fa-star"></i>
-                    </div>
-                    <div class="product_slider_cost">
-                        <p>123 450 тг.</p>
-                        <div class="cost_cart">
-                            <h2>123 450 тг.</h2>
-                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product_slider_block">
-                <div class="product_slider_img">
-                    <img src="imgs/widgets/main_phone.png" alt="">
-                </div>
-                <div class="product_slider_text">
-                    <div class="product_slider_card">
-                        <p>Новинки</p>
-                    </div>
-                    <div class="product_slider_title">
-                        <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb Black</a>
-                    </div>               
-                    <div class="product_slider_rates">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i id="fifth" class="fas fa-star"></i>
-                    </div>
-                    <div class="product_slider_cost">
-                        <p>123 450 тг.</p>
-                        <div class="cost_cart">
-                            <h2>123 450 тг.</h2>
-                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="product_slider_item">
-            <div class="product_slider_block">
-                <div class="product_slider_img">
-                    <img src="imgs/widgets/main_phone.png" alt="">
-                </div>
-                <div class="product_slider_text">
-                    <div class="product_slider_card">
-                        <p>Распродажа</p>
-                    </div>
-                    <div class="product_slider_title"><a href="zakaz.html">Xiaomi Mi 9T 6/64Gb Black</a></div>                
-                    <div class="product_slider_rates">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i id="fifth" class="fas fa-star"></i>
-                    </div>
-                    <div class="product_slider_cost">
-                        <p>123 450 тг.</p>
-                        <div class="cost_cart">
-                            <h2>123 450 тг.</h2>
-                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product_slider_block">
-                <div class="product_slider_img">
-                    <img src="imgs/widgets/main_phone.png" alt="">
-                </div>
-                <div class="product_slider_text">
-                    <div class="product_slider_card">
-                        <p>Распродажа</p>
-                    </div>
-                    <div class="product_slider_title"><a href="zakaz.html">Xiaomi Mi 9T 6/64Gb Black</a></div>                
-                    <div class="product_slider_rates">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i id="fifth" class="fas fa-star"></i>
-                    </div>
-                    <div class="product_slider_cost">
-                        <p>123 450 тг.</p>
-                        <div class="cost_cart">
-                            <h2>123 450 тг.</h2>
-                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product_slider_block">
-                <div class="product_slider_img">
-                    <img src="imgs/widgets/main_phone.png" alt="">
-                </div>
-                <div class="product_slider_text">
-                    <div class="product_slider_card">
-                        <p>Распродажа</p>
-                    </div>
-                    <div class="product_slider_title"><a href="zakaz.html">Xiaomi Mi 9T 6/64Gb Black</a></div>                
-                    <div class="product_slider_rates">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i id="fifth" class="fas fa-star"></i>
-                    </div>
-                    <div class="product_slider_cost">
-                        <p>123 450 тг.</p>
-                        <div class="cost_cart">
-                            <h2>123 450 тг.</h2>
-                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="smartphones container section_paddings">
-        <h1 class="main_title">Смартфоны</h1>
+    <section id="smartphones_page_wrap" class="catalog_with_bigone container">
         <div class="smartphones_wrap">
-            <div class="smartphones_item item_box">
+            <div class="smartphones_item">
                 <div class="smartphones_item_img">
-                    <img class="item_img" src="imgs/widgets/main_phone.png" alt="">
+                    <img src="imgs/widgets/main_phone.png" alt="">
                 </div>
-                <a class="item_title" >Xiaomi Mi 9T 6/64Gb</a>
+                <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb</a>
                 <div class="product_slider_rates">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -386,8 +204,8 @@
                     <i id="fifth" class="fas fa-star"></i>
                 </div>
                 <div class="cost_cart">
-                    <h2><span class="item_price">123    450</span> тг.</h2>
-                    <a class="add_item" data-id="7"><i class="fas fa-shopping-cart"></i></a>
+                    <h2>123 450 тг.</h2>
+                    <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
             <div class="smartphones_item">
@@ -407,55 +225,49 @@
                     <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
-            <div class="smartphones_item">
+            <div id="big_smartphone_item" class="smartphones_item">
                 <div class="smartphones_item_img">
                     <img src="imgs/widgets/main_phone.png" alt="">
                 </div>
-                <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb</a>
-                <div class="product_slider_rates">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i id="fifth" class="fas fa-star"></i>
-                </div>
-                <p>123 450 тг.</p>
-                <div class="cost_cart">
-                    <h2>123 450 тг.</h2>
-                    <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
+                <div class="big_smartphone_des">
+                    <div class="big_smartphone_rate">
+                        <h4>Распродажа</h4>
+                        <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb</a>
+                        <div id="big_product_slider_rates" class="product_slider_rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i id="fifth" class="fas fa-star"></i>
+                        </div>
+                    </div>              
+                    <div class="bog_smartphone_cost">
+                        <p>123 450 тг.</p>
+                        <div class="cost_cart">
+                            <h2 id="big_cost">123 450 тг.</h2>
+                            <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>   
                 </div>
             </div>
-            <div class="smartphones_item">
-                <img class="redmi" src="imgs/widgets/redmi_note.png" alt="">
-            </div>
-        </div>
+        </div> 
     </section>
-
-
-    <section class="brands container section_paddings">
-        <h1 class="main_title">Поплуярные бренды</h1>
-        <div class="brands_wrap">
-            <div class="brand_item"></div>
-        <div class="brand_item"></div>
-        <div class="brand_item"></div>
-        <div class="brand_item"></div>
-        <div class="brand_item">
-            <img src="imgs/widgets/brand1.png" alt="">
+   
+    <section class="catalog_ad container">
+        <div class="catalog_ad_item">
+            <div class="catalog_ad_title">
+                <h1>Redmi</h1>
+                <p>by Xiaomi</p>
+            </div>   
+            <div class="catalog_ad_second_title">
+                <p>Redmi Note 8 Pro </p>
+            </div>     
         </div>
-        <div class="brand_item">
-            <img src="imgs/widgets/brand2.png" alt="">
-        </div>
-        <div class="brand_item">
-            <img src="imgs/widgets/brand3.png" alt="">
-        </div>
-        </div>
-        
     </section>
 
 
     <section class="smartphones container section_paddings">
-        <h1 class="main_title">Хиты продаж</h1>
-        <div class="smartphones_wrap">
+        <div id="catalog_phone" class="smartphones_wrap">
             <div class="smartphones_item">
                 <div class="smartphones_item_img">
                     <img src="imgs/widgets/main_phone.png" alt="">
@@ -529,7 +341,94 @@
         </div>    
     </section>
 
-    
+
+    <section class="smartphones container">
+        <div id="catalog_phone" class="smartphones_wrap">
+            <div class="smartphones_item">
+                <div class="smartphones_item_img">
+                    <img src="imgs/widgets/main_phone.png" alt="">
+                </div>
+                <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb</a>
+                <div class="product_slider_rates">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i id="fifth" class="fas fa-star"></i>
+                </div>
+                <div class="cost_cart">
+                    <h2>123 450 тг.</h2>
+                    <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="smartphones_item">
+                <div class="smartphones_item_img">
+                    <img src="imgs/widgets/main_phone.png" alt="">
+                </div>
+                <a href="zakaz.html">Xiaomi Mi 64Gb 6/9T  Black 9T</a>
+                <div class="product_slider_rates">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i id="fifth" class="fas fa-star"></i>
+                </div>
+                <div class="cost_cart">
+                    <h2>123 450 тг.</h2>
+                    <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="smartphones_item">
+                <div class="smartphones_item_img">
+                    <img src="imgs/widgets/main_phone.png" alt="">
+                </div>
+                <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb</a>
+                <div class="product_slider_rates">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i id="fifth" class="fas fa-star"></i>
+                </div>
+                <p>123 450 тг.</p>
+                <div class="cost_cart">
+                    <h2>123 450 тг.</h2>
+                    <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div id="fouth" class="smartphones_item">
+                <div class="smartphones_item_img">
+                    <img src="imgs/widgets/main_phone.png" alt="">
+                </div>
+                <a href="zakaz.html">Xiaomi Mi 9T 6/64Gb</a>
+                <div class="product_slider_rates">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i id="fifth" class="fas fa-star"></i>
+                </div>
+                <p>123 450 тг.</p> 
+                <div class="cost_cart">
+                    <h2>123 450 тг.</h2>
+                    <a href="korzina.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="next_prev_counters">
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+    </div>
+
 
     <section class="dark_img">
         <div class="dark_img_wrap">

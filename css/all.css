@@ -10,3 +10,9 @@
 @import url(components/text.css);
 @import url(components/social_networks.css);
 @import url(components/footer.css);
+@import url(components/korzina/korzina.css);
+@import url(components/catalog_pages/catalog_pages.css);
+@import url(components/zakaz/zakaz.css);
+@import url(components/zakaz/modal_windows.css);
+@import url(components/about_us/about_us.css);
+@import url(components/adress/adress.css);

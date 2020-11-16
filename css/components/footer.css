@@ -8,7 +8,7 @@
 .footer_top_item {
     width: 25%;
 }
-.footer_top_item>img {
+.footer_top_item>a>img {
     width: 180px;
 }
 .footer_top_item>p {

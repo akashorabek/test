@@ -1,0 +1,174 @@
+.korzina_top {
+    padding-top: 30px;
+}
+.korzina_title {
+    display: flex;
+    align-items: center;
+}
+.korzina_title i {
+    font-size: 40px;
+    color: #C2871E;
+}
+.korzina_title h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.korzina_item {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    border: 2px solid #D6D6D6;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.korzina_item_title {
+    display: flex;
+    align-items: center;
+}
+.korzina_item_title h2 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+.korzina_item_title img {
+    width: 60px;
+}
+.korzina_item_cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.korzina_item_cost>p {
+    font-size: 24px;
+}
+.korzina_item_cost h1 {
+    font-size: 28px;
+}
+.cost_plus_minus {
+    display: flex;
+    align-items: center;
+}
+.cost_plus_minus span {
+    font-size: 24px;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+.cost_plus_minus p {
+    margin-left: 20px;
+    font-size: 24px;
+}
+.cost_plus_minus i {
+    margin: 0 40px;
+    font-size: 26px;
+    color: #C2871E;
+    cursor: pointer;
+}
+
+
+.korzina_bottom {
+    border: 2px solid #D6D6D6;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.korzina_bottom_product_count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.korzina__products_num {
+    display: flex;
+    align-items: center;
+}
+.korzina__products_num h1 {
+    font-size: 18px;
+    margin-right: 30px;
+}
+.korzina_bottom_item {
+    padding: 0 40px;
+}
+.korzina__products_num span {
+    font-size: 28px;
+    padding: 15px 25px;
+    background-color: #FFFCF9;
+    border: 2px solid #979797;
+    border-radius: 10px;
+}
+.korzina_bottom_details {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #979797;
+}
+.korzina_bottom_dostavka {
+    display: flex;
+    align-items: center;
+}
+.korzina_bottom_dostavka input {
+    cursor: pointer;
+}
+.korzina_bottom_dostavka h1 {
+    font-size: 18px;
+    margin: 0 20px;
+}
+.korzina_bottom_dostavka span {
+    font-size: 28px;
+}
+.korzina_bottom_adress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.korzina_bottom_adress p {
+    width: 40%;
+    font-size: 12px;
+}
+.korzina_bottom_adress input {
+    padding: 10px;
+    margin: 0 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #F2F2F2;
+}
+.korzina_bottom_item:nth-child(2) {
+    padding-top: 30px;
+}
+.korzina_bottom_item>h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.korzina_bottom_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.korzina_bottom_name input {
+    padding: 10px;
+    margin-right: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #F2F2F2;
+}
+.korzina_bottom_name button {
+    padding: 15px 40px;
+    background-color: #C2871E;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+.korzina_bottom_name button:hover {
+    border-color: #C2871E;
+    background-color: white;
+    color: #C2871E;
+}
