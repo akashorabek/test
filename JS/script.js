@@ -40,6 +40,11 @@ $('.modal_window .fas.fa-times').click(function(){
 
 $('.zakaz_click').click(function(){
     $('.modal.order').addClass('active');
+    $('body').addClass('lock');
+});
+$('.order_product').click(function(){
+  $('.modal.order').addClass('active');
+  $('body').addClass('lock');
 });
 $('.do_order').click(function(){
     $('.modal_window.order').hide();
