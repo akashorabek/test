@@ -1,0 +1,343 @@
+@media(max-width: 1000px){
+    .top_header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar_links {
+        margin-bottom: 20px;
+    }
+    .catalog_window {
+        width: 92%;
+        top: 385px;
+    }
+    .bottom_header {
+        flex-direction: column;
+    }
+    .header_shopping {
+        margin-bottom: 20px;
+    }
+    .header_search {
+        width: 70%;
+        margin: 20px 0;
+    }
+    .product_sliders {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product_slider_item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .smartphones_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .smartphones_item {
+        width: 40%;
+        margin: 10px;
+    }
+    .smartphones_item:nth-child(4) {
+        padding: 20px;
+    }
+    .brands_wrap {
+        flex-wrap: wrap;
+    }
+    .brand_item {
+        width: calc(100% / 3 - 2%);
+        margin: 10px 0;
+    }
+    .brand_item img {
+        height: 70%;
+    }
+    .dark_img_wrap {
+        flex-direction: column;
+    }
+    .dark_img_content {
+        width: 100%;
+    }
+    .text p {
+        width: 100%;
+    }
+    .social_net_wrap {
+        flex-wrap: wrap;
+    }
+    .social_net_item {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .footer_top {
+        flex-wrap: wrap;
+    }
+    .footer_top_item {
+        width: 45%;
+    }
+    .korzina_item_cost {
+        width: 60%;
+    }
+    .product_details {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .product_details_des {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .product_details_img {
+        margin: 0;
+    }
+    .zakaz_tabs_content {
+        width: 100%;
+    }
+    .about_us {
+        overflow: hidden;
+    }
+    .about_us::before {
+        height: 40%;
+        width: 100%;
+    }
+    .about_us_middle {
+        width: 100%;
+    }
+}
+@media(max-width: 770px){
+    .catalog_window.show {
+        flex-direction: column;
+        align-items: center;
+    }
+    .catalog_left_side {
+        width: 90%;
+        border-right: none;
+    }
+    .catalog_left_item {
+        width: 100%;
+    }
+    .catalog_right_side {
+        margin: 20px 0;
+        width: 90%;
+    }
+    .gadgets_wrap {
+        flex-wrap: wrap;
+    }
+    .gadget_item {
+        width: calc(100% / 2 - 3%);
+    }
+    .products_imgs {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .smartphone_box {
+        width: 94%;
+    }
+    .other_gadgets_box {
+        width: 95%;
+        margin: 15px 0;
+    }
+    .dark_img_content_item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dark_img_title {
+        width: 60%;
+    }
+    .dark_img_inner {
+        margin-bottom: 30px;
+        width: 60%;
+    }
+    .social_net_wrap {
+        flex-direction: column;
+    }
+    .social_net_item {
+        width: 80%;
+    }
+    .product_slider_block {
+        padding: 20px;
+    }
+    .product_slider_card {
+        top: 5px;
+    }
+    .catalog_filter_wrap {
+        flex-direction: column;
+    }
+    .catalog_filter_item {
+        width: 52%;
+        margin-bottom: 30px;
+    }
+
+    .catalog_ad_title h1 {
+        font-size: 70px;
+    }
+    .catalog_ad_title p {
+        font-size: 30px;
+    }
+    #big_smartphone_item {
+        width: 80%;
+    }
+    .korzina_item {
+        flex-direction: column;
+    }
+    .korzina_item_cost {
+        width: 100%;
+    }
+    .korzina_item_title {
+        margin-bottom: 20px;
+    }
+    .korzina_bottom_product_count {
+        flex-direction: column;
+    }
+    .korzina__products_num {
+        margin-bottom: 20px;
+    }
+    .korzina_bottom_dostavka {
+        justify-content: center;
+    }
+    .korzina_bottom_adress {
+        margin: 20px 0;
+    }
+    .korzina_bottom_adress p {
+        width: 100%;
+    }
+    .korzina_bottom_name {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product_details_img img {
+        width: 100%;
+    }
+    .about_us_top {
+        flex-direction: column;
+    }
+    .about_us_top h2 {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .about_us_top p {
+        width: 80%;
+    }
+    .about_us::before {
+        height: 30%;
+    }
+    .adress {
+        flex-direction: column;
+        align-items: center;
+    }
+    .adress_item {
+        width: 90%;
+    }
+}
+
+@media(max-width: 500px) {
+    .navbar_links:nth-child(2){
+        flex-direction: column;
+    }
+    .product_slider_img img {
+        width: 80%;
+    }
+    .catalog_window {
+        width: 85%;
+    }
+    .navbar_icon_number {
+        margin: 20px 0;
+    }
+    .smartphone_box_btns a {
+        padding: 10px;
+    }
+    .smartphones_item {
+        width: 90%;
+    }
+    .brands_wrap {
+        justify-content: center;
+    }
+    .brand_item {
+        width: 80%;
+    }
+    .footer_top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_top_item {
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .dark_img_title {
+        width: 100%;
+    }
+    .dark_img_inner {
+        width: 100%;
+    }
+    .dark_img_inner p {
+        margin-left: 20px;
+    }
+    .product_slider_img {
+        padding: 0;
+    }
+    .catalog_way p {
+        text-align: center;
+    }
+    .catalog_title {
+        flex-direction: column;
+    }
+    .catalog_brand {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .catalog_filter_item {
+        width: 80%;
+    }
+    .catalog_ad_title {
+        width: 70%;
+    }
+    .catalog_ad_second_title p {
+        margin: 0;
+    }
+    .korzina_bottom_adress {
+        flex-direction: column;
+    }
+    .korzina_bottom_adress p {
+        margin-bottom: 20px;
+    }
+    .korzina_item_cost {
+        flex-direction: column;
+    }
+    .korzina_item_cost>p {
+        margin: 20px 0;
+    }
+    .cost_plus_minus span {
+        padding: 10px;
+    }
+    .korzina_bottom_name input {
+        width: 200px;
+        margin: 10px 0;
+    }
+    .korzina_bottom_adress input {
+        margin: 10px 0;
+        width: 200px;
+    }
+    .product_details_btns {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product_details_btns a {
+        margin-bottom: 20px;
+    }
+    .modal_order_btns {
+        flex-direction: column;
+    }
+    .korzina_bottom_name button {
+        margin-top: 30px;
+    }
+    .product_details_adress {
+        width: 40%;
+    }
+    .map_modal_inner {
+        flex-direction: column;
+    }
+    .about_us::before {
+        height: 20%;
+    }
+    .about_us_bottom {
+        width: 100%;
+    }
+}
