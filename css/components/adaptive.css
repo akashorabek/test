@@ -224,6 +224,9 @@
     .adress_item {
         width: 90%;
     }
+    .modal_window.thanks {
+        width: 90%;
+    }
 }
 
 @media(max-width: 500px) {
