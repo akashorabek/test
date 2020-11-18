@@ -103,16 +103,16 @@ $(window).scroll(function(){
     var sticky = $('.product_details_img'),
         scroll = $(window).scrollTop();
 
-    if (scroll >= 260 && scroll <= 850) {
+    if (scroll >= 260 && scroll <= 650) {
         sticky.addClass('fixed');
     } else if(scroll <= 260) {
         sticky.removeClass('fixed');
-    } else if(scroll >= 850) {
+    } else if(scroll >= 650) {
         sticky.removeClass('fixed');
         sticky.addClass('absolute');
     } if (scroll <= 260) {
         sticky.removeClass('fixed');
-    }  else if(scroll <= 850) {
+    }  else if(scroll <= 650) {
         sticky.addClass('fixed');
         sticky.removeClass('absolute');
     }
