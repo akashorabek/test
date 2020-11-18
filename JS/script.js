@@ -94,6 +94,28 @@ $('.catalog_left_item:nth-child(7)').click(function(){
     $('.gadgets_catalog').not('.gadgets_catalog:nth-child(7)').hide();
 });
 
+$('.catalog_brand_click').click(function(){
+    $('.catalog_brand i').toggleClass('active');
+    $('.catalog_brand_inner').fadeToggle(150);
+});
 
+$(window).scroll(function(){
+    var sticky = $('.product_details_img'),
+        scroll = $(window).scrollTop();
 
+    if (scroll >= 260 && scroll <= 850) {
+        sticky.addClass('fixed');
+    } else if(scroll <= 260) {
+        sticky.removeClass('fixed');
+    } else if(scroll >= 850) {
+        sticky.removeClass('fixed');
+        sticky.addClass('absolute');
+    } if (scroll <= 260) {
+        sticky.removeClass('fixed');
+    }  else if(scroll <= 850) {
+        sticky.addClass('fixed');
+        sticky.removeClass('absolute');
+    }
+   
+});
 }); 

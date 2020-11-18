@@ -5,12 +5,12 @@
     display: flex;
     align-items: center;
 }
-.korzina_title i {
-    font-size: 40px;
-    color: #C2871E;
+.korzina_title img {
+    width: 50px;
 }
 .korzina_title h1 {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: bold;
     margin-left: 20px;
 }
 .korzina_item {
@@ -28,8 +28,10 @@
 }
 .korzina_item_title h2 {
     font-size: 20px;
+    font-weight: bold;
     margin-left: 40px;
 }
+
 .korzina_item_title img {
     width: 60px;
 }
@@ -41,9 +43,11 @@
 }
 .korzina_item_cost>p {
     font-size: 24px;
+    font-weight: bold;
 }
 .korzina_item_cost h1 {
-    font-size: 28px;
+    font-size: 24px;
+    font-weight: bold;
 }
 .cost_plus_minus {
     display: flex;
@@ -51,6 +55,7 @@
 }
 .cost_plus_minus span {
     font-size: 24px;
+    font-weight: bold;
     margin: 0 5px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -60,6 +65,7 @@
 .cost_plus_minus p {
     margin-left: 20px;
     font-size: 24px;
+    font-weight: bold;
 }
 .cost_plus_minus i {
     margin: 0 40px;
@@ -93,6 +99,7 @@
 }
 .korzina__products_num span {
     font-size: 28px;
+    font-weight: bold;
     padding: 15px 25px;
     background-color: #FFFCF9;
     border: 2px solid #979797;
@@ -112,16 +119,18 @@
 .korzina_bottom_dostavka h1 {
     font-size: 18px;
     margin: 0 20px;
+    font-weight: bold;
 }
 .korzina_bottom_dostavka span {
     font-size: 28px;
+    font-weight: bold;
 }
 .korzina_bottom_adress {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .korzina_bottom_adress p {
     width: 40%;
@@ -141,6 +150,7 @@
 }
 .korzina_bottom_item>h2 {
     font-size: 24px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 .korzina_bottom_name {
@@ -162,6 +172,7 @@
     background-color: #C2871E;
     border: 2px solid transparent;
     outline: none;
+    font-weight: bold;
     border-radius: 5px;
     color: white;
     cursor: pointer;

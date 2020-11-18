@@ -3,6 +3,8 @@
 }
 .social_networks>h1 {
     margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
 }
 .social_net_wrap {
     display: flex;
@@ -14,6 +16,20 @@
     border: 2px solid #e6e6e6;
     border-radius: 15px;
     padding: 30px;
+    transition: background-color .3s;
+}
+.social_net_item:hover {
+    background-color: #D89D3D;
+    border-color: #D89D3D;
+}
+.social_net_item:hover i {
+    color: white;
+}
+.social_net_item:hover p {
+    color: white;
+}
+.social_net_item:hover h1 {
+    color: white;
 }
 .item_title {
     display: flex;
@@ -23,22 +39,30 @@
     font-size: 28px;
     color: #D89D3D;
     margin-right: 20px;
+    transition: .3s;
+}
+.item_title h1 {
+    font-weight: bold;
+    transition: .3s;
 }
 .item_btn {
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .item_btn p{
     width: 50%;
+    transition: .3s;
 }
 .item_btn a {
     padding: 10px;
     border: 2px solid #E3E3E3;
     border-radius: 5px;
+    background-color: white;
     color: black;
     transition: .2s;
+    font-size: 13px;
 }
 .item_btn a:hover {
     color: white;

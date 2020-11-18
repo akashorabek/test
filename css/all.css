@@ -17,3 +17,35 @@
 @import url(components/about_us/about_us.css);
 @import url(components/adress/adress.css);
 @import url(components/adaptive.css);
+
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url(fonts/AvenirNextCyr-Regular.ttf);
+    src: local('Avenir Next Regular'), local('fonts/Avenir-Next-Regular'),
+        url('fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('fonts/AvenirNextCyr-Regular.woff') format('woff'),
+        url('fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal; 
+  }
+  @font-face {
+    font-family: 'AvenirNext';
+    src: url(fonts/AvenirNextCyr-Medium.ttf);
+    src: local('Avenir Next Medium'), local('fonts/Avenir-Next-Medium'),
+        url('fonts/AvenirNextCyr-Medium.woff2') format('woff2'),
+        url('fonts/AvenirNextCyr-Medium.woff') format('woff'),
+        url('fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+	font-family: 'AvenirNext';
+	src: url(fonts/AvenirNextCyr-Bold.ttf);
+    src: local('Avenir Next Bold'), local('fonts/Avenir-Next-Bold'),
+        url('fonts/AvenirNextCyr-Bold.woff2') format('woff2'),
+        url('fonts/AvenirNextCyr-Bold.woff') format('woff'),
+        url('fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

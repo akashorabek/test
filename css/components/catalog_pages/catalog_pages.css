@@ -11,13 +11,46 @@
     font-size: 24px;
 }
 .catalog_title h1 {
-    font-size: 42px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .catalog_brand {
     display: flex;
     align-items: center;
     margin-left: 40px;
+    position: relative;
+}
+.catalog_brand i {
+    transition: .3s;
+}
+.catalog_brand i.active {
+    transform: rotate(180deg);
+}
+.catalog_brand_click {
+    cursor: pointer;
+}
+.catalog_brand_inner {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 15px;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+.catalog_brand_inner li {
+    font-size: 24px;
+    padding: 20px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+.catalog_brand_inner li:hover {
+    color: white;
+    background-color: #C2871E;
 }
 .catalog_brand h1 {
     margin-left: 20px;
@@ -87,17 +120,21 @@
     align-items: center;
     justify-content: space-between;
 }
+.big_smartphone_rate h4{
+    font-weight: bold;
+    color: #C2871E;
+}
 .big_smartphone_rate a {
     color: black;
-    font-size: 26px;
+    font-size: 24px;
+    font-weight: bold;
     display: block;
     margin: 20px 0;
 }
-#big_product_slider_rates i{
-    font-size: 24px;
-}
+
 #big_cost{
     font-size: 26px;
+    margin-right: 100px;
 }
 
 
@@ -123,6 +160,7 @@
 }
 .catalog_ad_title h1 {
     font-size: 130px;
+    font-weight: 500;
     color: white;
 }
 .catalog_ad_title p {
@@ -137,7 +175,6 @@
 .catalog_ad_second_title p {
     font-size: 32px;
     color: white;
-    margin-top: 20px;
 }
 .next_prev_counters {
     text-align: center;

@@ -20,11 +20,15 @@
     border-radius: 15px;
     position: relative;
 }
+.modal_window>h1 {
+    font-weight: 500;
+}
 .map_modal_title {
     padding: 25px;
 }
 .map_modal_title h1 {
     font-size: 28px;
+    font-weight: 500;
 }
 .map_modal_inner {
     display: flex;
@@ -85,6 +89,7 @@ body.lock {
 }
 .modal_order_img_title h2 {
     font-size: 20px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .modal_order_img_title h3 {
